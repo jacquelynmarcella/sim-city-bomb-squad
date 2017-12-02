@@ -7,5 +7,25 @@
     <script src="bomb.js"></script>
   </head>
   <body class="unexploded">
+  	<div id="box">
+  		<img id="blue" src="img/uncut-blue-wire.png">
+  		<img id="green" src="img/uncut-green-wire.png">
+  		<img id="red" src="img/uncut-red-wire.png">
+  		<img id="white" src="img/uncut-white-wire.png">
+  		<img id="yellow" src="img/uncut-yellow-wire.png">
+		  	<div>
+		  		<p id="counter">30</p>
+		  	</div>
+		  	<div id="reset">
+		  		<button>Reset</button>
+		  	</div>
+  	</div>
+  	<h1 id="wintext">You have saved the city!</h1>
+	<h1 id="failtext">You have failed the city!</h1>
+	<audio id="siren" src="sounds/Siren.wav" loop></audio>
+	<audio id="explosion" src="sounds/BldgExplode.wav"></audio>
+	<audio id="crowdyay" src="sounds/CrowdYay.wav"></audio>
+	<audio id="buzz" src="sounds/Electricity.wav"></audio>
+	<audio id="success" src="sounds/success.ogg"></audio>
   </body>
 </html>
